@@ -13,28 +13,29 @@ describe('Converter', function() {
     app.bootstrap({
         mode: 'modules',
         logger: 'none',
-        target: ScriptTarget.ES5,
+        target: ScriptTarget.ES2016,
         module: ModuleKind.CommonJS,
         experimentalDecorators: true,
         jsx: JsxEmit.React,
         name: 'typedoc',
         ignoreCompilerErrors: true,
-        excludeExternals: true
+        excludeExternals: true,
+        disableSources: true
     });
 
     const checks: [string, () => void, () => void][] = [
         ['specs', () => { }, () => { }],
         ['specs.d',
-            () => app.options.setValue('includeDeclarations', true),
-            () => app.options.setValue('includeDeclarations', false)
+            () => app.options.setValue('includeDeclarations', true).unwrap(),
+            () => app.options.setValue('includeDeclarations', false).unwrap()
         ],
         ['specs-without-exported',
-            () => app.options.setValue('excludeNotExported', true),
-            () => app.options.setValue('excludeNotExported', false)
+            () => app.options.setValue('excludeNotExported', true).unwrap(),
+            () => app.options.setValue('excludeNotExported', false).unwrap()
         ],
         ['specs-with-lump-categories',
-            () => app.options.setValue('categorizeByGroup', false),
-            () => app.options.setValue('categorizeByGroup', true)
+            () => app.options.setValue('categorizeByGroup', false).unwrap(),
+            () => app.options.setValue('categorizeByGroup', true).unwrap()
         ]
     ];
 

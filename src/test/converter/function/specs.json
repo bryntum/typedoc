@@ -8,7 +8,7 @@
       "id": 1,
       "name": "\"function\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -18,7 +18,7 @@
           "id": 35,
           "name": "moduleFunction",
           "kind": 2,
-          "kindString": "Module",
+          "kindString": "Namespace",
           "flags": {
             "isExported": true
           },
@@ -73,13 +73,6 @@
               "comment": {
                 "shortText": "This variable is appended to a function."
               },
-              "sources": [
-                {
-                  "fileName": "function.ts",
-                  "line": 160,
-                  "character": 24
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -106,13 +99,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "function.ts",
-                  "line": 165,
-                  "character": 19
-                }
               ]
             },
             {
@@ -136,13 +122,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "function.ts",
-                  "line": 172,
-                  "character": 20
-                }
               ]
             }
           ],
@@ -161,18 +140,6 @@
                 53,
                 55
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 118,
-              "character": 30
-            },
-            {
-              "fileName": "function.ts",
-              "line": 156,
-              "character": 28
             }
           ]
         },
@@ -248,13 +215,6 @@
                 }
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 139,
-              "character": 31
-            }
           ]
         },
         {
@@ -300,13 +260,6 @@
                 "name": "condition",
                 "asserts": true
               }
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 125,
-              "character": 33
             }
           ]
         },
@@ -358,13 +311,6 @@
                 }
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 131,
-              "character": 31
-            }
           ]
         },
         {
@@ -391,13 +337,6 @@
                 "type": "intrinsic",
                 "name": "void"
               }
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 9,
-              "character": 32
             }
           ]
         },
@@ -514,13 +453,6 @@
                 "name": "string"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 60,
-              "character": 36
-            }
           ]
         },
         {
@@ -582,13 +514,6 @@
                 "type": "intrinsic",
                 "name": "void"
               }
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 48,
-              "character": 41
             }
           ]
         },
@@ -668,13 +593,6 @@
                 "name": "number"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 28,
-              "character": 38
-            }
           ]
         },
         {
@@ -720,13 +638,6 @@
                 "name": "string"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 76,
-              "character": 25
-            }
           ]
         },
         {
@@ -749,13 +660,6 @@
                 "type": "intrinsic",
                 "name": "void"
               }
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 4,
-              "character": 25
             }
           ]
         },
@@ -830,13 +734,6 @@
                   "name": "T"
                 }
               }
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 149,
-              "character": 25
             }
           ]
         },
@@ -934,13 +831,6 @@
                           "comment": {
                             "text": "A value of the object.\n"
                           },
-                          "sources": [
-                            {
-                              "fileName": "function.ts",
-                              "line": 93,
-                              "character": 47
-                            }
-                          ],
                           "type": {
                             "type": "intrinsic",
                             "name": "string"
@@ -955,13 +845,6 @@
                             34
                           ]
                         }
-                      ],
-                      "sources": [
-                        {
-                          "fileName": "function.ts",
-                          "line": 93,
-                          "character": 41
-                        }
                       ]
                     }
                   }
@@ -971,23 +854,6 @@
                 "type": "intrinsic",
                 "name": "string"
               }
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 85,
-              "character": 34
-            },
-            {
-              "fileName": "function.ts",
-              "line": 93,
-              "character": 34
-            },
-            {
-              "fileName": "function.ts",
-              "line": 101,
-              "character": 34
             }
           ]
         },
@@ -1040,19 +906,12 @@
                 "name": "number"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 38,
-              "character": 29
-            }
           ]
         }
       ],
       "groups": [
         {
-          "title": "Modules",
+          "title": "Namespaces",
           "kind": 2,
           "children": [
             35
@@ -1076,20 +935,13 @@
             11
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "function.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     },
     {
       "id": 57,
       "name": "\"generic-function\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -1162,12 +1014,54 @@
                 }
               }
             }
-          ],
-          "sources": [
+          ]
+        },
+        {
+          "id": 67,
+          "name": "functionWithTemplate",
+          "kind": 64,
+          "kindString": "Function",
+          "flags": {},
+          "signatures": [
             {
-              "fileName": "generic-function.ts",
-              "line": 18,
-              "character": 42
+              "id": 68,
+              "name": "functionWithTemplate",
+              "kind": 4096,
+              "kindString": "Call signature",
+              "flags": {},
+              "comment": {},
+              "typeParameter": [
+                {
+                  "id": 69,
+                  "name": "T",
+                  "kind": 131072,
+                  "kindString": "Type parameter",
+                  "flags": {},
+                  "comment": {
+                    "text": "this describes T\n"
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 70,
+                  "name": "param",
+                  "kind": 32768,
+                  "kindString": "Parameter",
+                  "flags": {},
+                  "comment": {
+                    "text": "this describes param"
+                  },
+                  "type": {
+                    "type": "typeParameter",
+                    "name": "T"
+                  }
+                }
+              ],
+              "type": {
+                "type": "typeParameter",
+                "name": "T"
+              }
             }
           ]
         },
@@ -1233,13 +1127,6 @@
                 }
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "generic-function.ts",
-              "line": 7,
-              "character": 24
-            }
           ]
         }
       ],
@@ -1249,30 +1136,24 @@
           "kind": 64,
           "children": [
             62,
+            67,
             58
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "generic-function.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 67,
+      "id": 71,
       "name": "\"implicit-types\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/function/implicit-types.ts",
       "children": [
         {
-          "id": 68,
+          "id": 72,
           "name": "BreakpointRange",
           "kind": 256,
           "kindString": "Interface",
@@ -1281,40 +1162,26 @@
           },
           "children": [
             {
-              "id": 70,
+              "id": 74,
               "name": "end",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "implicit-types.ts",
-                  "line": 1,
-                  "character": 53
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
               }
             },
             {
-              "id": 69,
+              "id": 73,
               "name": "start",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "implicit-types.ts",
-                  "line": 1,
-                  "character": 40
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
@@ -1326,135 +1193,86 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                70,
-                69
+                74,
+                73
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "implicit-types.ts",
-              "line": 1,
-              "character": 32
             }
           ]
         },
         {
-          "id": 71,
+          "id": 75,
           "name": "_breakpoints",
           "kind": 32,
           "kindString": "Variable",
           "flags": {
             "isLet": true
           },
-          "sources": [
-            {
-              "fileName": "implicit-types.ts",
-              "line": 3,
-              "character": 16
-            }
-          ],
           "type": {
             "type": "reflection",
             "declaration": {
-              "id": 72,
+              "id": 76,
               "name": "__type",
               "kind": 65536,
               "kindString": "Type literal",
               "flags": {},
               "children": [
                 {
-                  "id": 75,
+                  "id": 79,
                   "name": "large",
                   "kind": 32,
                   "kindString": "Variable",
                   "flags": {},
-                  "sources": [
-                    {
-                      "fileName": "implicit-types.ts",
-                      "line": 6,
-                      "character": 9
-                    }
-                  ],
                   "type": {
                     "type": "reference",
-                    "id": 68,
+                    "id": 72,
                     "name": "BreakpointRange"
                   }
                 },
                 {
-                  "id": 74,
+                  "id": 78,
                   "name": "medium",
                   "kind": 32,
                   "kindString": "Variable",
                   "flags": {},
-                  "sources": [
-                    {
-                      "fileName": "implicit-types.ts",
-                      "line": 5,
-                      "character": 10
-                    }
-                  ],
                   "type": {
                     "type": "reference",
-                    "id": 68,
-                    "name": "BreakpointRange"
-                  }
-                },
-                {
-                  "id": 73,
-                  "name": "small",
-                  "kind": 32,
-                  "kindString": "Variable",
-                  "flags": {},
-                  "sources": [
-                    {
-                      "fileName": "implicit-types.ts",
-                      "line": 4,
-                      "character": 9
-                    }
-                  ],
-                  "type": {
-                    "type": "reference",
-                    "id": 68,
-                    "name": "BreakpointRange"
-                  }
-                },
-                {
-                  "id": 76,
-                  "name": "xlarge",
-                  "kind": 32,
-                  "kindString": "Variable",
-                  "flags": {},
-                  "sources": [
-                    {
-                      "fileName": "implicit-types.ts",
-                      "line": 7,
-                      "character": 10
-                    }
-                  ],
-                  "type": {
-                    "type": "reference",
-                    "id": 68,
+                    "id": 72,
                     "name": "BreakpointRange"
                   }
                 },
                 {
                   "id": 77,
+                  "name": "small",
+                  "kind": 32,
+                  "kindString": "Variable",
+                  "flags": {},
+                  "type": {
+                    "type": "reference",
+                    "id": 72,
+                    "name": "BreakpointRange"
+                  }
+                },
+                {
+                  "id": 80,
+                  "name": "xlarge",
+                  "kind": 32,
+                  "kindString": "Variable",
+                  "flags": {},
+                  "type": {
+                    "type": "reference",
+                    "id": 72,
+                    "name": "BreakpointRange"
+                  }
+                },
+                {
+                  "id": 81,
                   "name": "xxlarge",
                   "kind": 32,
                   "kindString": "Variable",
                   "flags": {},
-                  "sources": [
-                    {
-                      "fileName": "implicit-types.ts",
-                      "line": 8,
-                      "character": 11
-                    }
-                  ],
                   "type": {
                     "type": "reference",
-                    "id": 68,
+                    "id": 72,
                     "name": "BreakpointRange"
                   }
                 }
@@ -1464,26 +1282,19 @@
                   "title": "Variables",
                   "kind": 32,
                   "children": [
-                    75,
-                    74,
-                    73,
-                    76,
-                    77
+                    79,
+                    78,
+                    77,
+                    80,
+                    81
                   ]
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "implicit-types.ts",
-                  "line": 3,
-                  "character": 17
                 }
               ]
             }
           }
         },
         {
-          "id": 78,
+          "id": 82,
           "name": "getBreakpoints",
           "kind": 64,
           "kindString": "Function",
@@ -1492,7 +1303,7 @@
           },
           "signatures": [
             {
-              "id": 79,
+              "id": 83,
               "name": "getBreakpoints",
               "kind": 4096,
               "kindString": "Call signature",
@@ -1502,7 +1313,7 @@
               "type": {
                 "type": "reflection",
                 "declaration": {
-                  "id": 80,
+                  "id": 84,
                   "name": "__type",
                   "kind": 65536,
                   "kindString": "Type literal",
@@ -1511,107 +1322,72 @@
                   },
                   "children": [
                     {
-                      "id": 83,
+                      "id": 87,
                       "name": "large",
                       "kind": 32,
                       "kindString": "Variable",
                       "flags": {
                         "isExported": true
                       },
-                      "sources": [
-                        {
-                          "fileName": "implicit-types.ts",
-                          "line": 6,
-                          "character": 9
-                        }
-                      ],
                       "type": {
                         "type": "reference",
-                        "id": 68,
+                        "id": 72,
                         "name": "BreakpointRange"
                       }
                     },
                     {
-                      "id": 82,
+                      "id": 86,
                       "name": "medium",
                       "kind": 32,
                       "kindString": "Variable",
                       "flags": {
                         "isExported": true
                       },
-                      "sources": [
-                        {
-                          "fileName": "implicit-types.ts",
-                          "line": 5,
-                          "character": 10
-                        }
-                      ],
                       "type": {
                         "type": "reference",
-                        "id": 68,
+                        "id": 72,
                         "name": "BreakpointRange"
                       }
                     },
                     {
-                      "id": 81,
+                      "id": 85,
                       "name": "small",
                       "kind": 32,
                       "kindString": "Variable",
                       "flags": {
                         "isExported": true
                       },
-                      "sources": [
-                        {
-                          "fileName": "implicit-types.ts",
-                          "line": 4,
-                          "character": 9
-                        }
-                      ],
                       "type": {
                         "type": "reference",
-                        "id": 68,
+                        "id": 72,
                         "name": "BreakpointRange"
                       }
                     },
                     {
-                      "id": 84,
+                      "id": 88,
                       "name": "xlarge",
                       "kind": 32,
                       "kindString": "Variable",
                       "flags": {
                         "isExported": true
                       },
-                      "sources": [
-                        {
-                          "fileName": "implicit-types.ts",
-                          "line": 7,
-                          "character": 10
-                        }
-                      ],
                       "type": {
                         "type": "reference",
-                        "id": 68,
+                        "id": 72,
                         "name": "BreakpointRange"
                       }
                     },
                     {
-                      "id": 85,
+                      "id": 89,
                       "name": "xxlarge",
                       "kind": 32,
                       "kindString": "Variable",
                       "flags": {
                         "isExported": true
                       },
-                      "sources": [
-                        {
-                          "fileName": "implicit-types.ts",
-                          "line": 8,
-                          "character": 11
-                        }
-                      ],
                       "type": {
                         "type": "reference",
-                        "id": 68,
+                        "id": 72,
                         "name": "BreakpointRange"
                       }
                     }
@@ -1621,23 +1397,16 @@
                       "title": "Variables",
                       "kind": 32,
                       "children": [
-                        83,
-                        82,
-                        81,
-                        84,
-                        85
+                        87,
+                        86,
+                        85,
+                        88,
+                        89
                       ]
                     }
                   ]
                 }
               }
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "implicit-types.ts",
-              "line": 11,
-              "character": 30
             }
           ]
         }
@@ -1647,41 +1416,34 @@
           "title": "Interfaces",
           "kind": 256,
           "children": [
-            68
+            72
           ]
         },
         {
           "title": "Variables",
           "kind": 32,
           "children": [
-            71
+            75
           ]
         },
         {
           "title": "Functions",
           "kind": 64,
           "children": [
-            78
+            82
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "implicit-types.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     }
   ],
   "groups": [
     {
-      "title": "External modules",
+      "title": "Modules",
       "kind": 1,
       "children": [
         1,
         57,
-        67
+        71
       ]
     }
   ]

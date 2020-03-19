@@ -9,7 +9,7 @@ const ts = require('typescript');
 const app = new TypeDoc.Application();
 app.bootstrap({
     mode: TypeDoc.SourceFileMode.Modules,
-    target: ts.ScriptTarget.ES5,
+    target: ts.ScriptTarget.ES2016,
     module: ts.ModuleKind.CommonJS,
     experimentalDecorators: true,
     jsx: ts.JsxEmit.React,
@@ -20,7 +20,8 @@ app.bootstrap({
         "lib.es2015.collection.d.ts"
     ],
     name: 'typedoc',
-    excludeExternals: true
+    excludeExternals: true,
+    disableSources: true
 });
 
 // Note that this uses the test files in dist, not in src, this is important since

@@ -8,7 +8,7 @@
       "id": 1,
       "name": "\"access\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -39,13 +39,6 @@
               "comment": {
                 "shortText": "A variable that is made private via comment."
               },
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 34,
-                  "character": 23
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -63,13 +56,6 @@
               "comment": {
                 "shortText": "A variable that is made protected via comment."
               },
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 40,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -102,13 +88,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 46,
-                  "character": 23
-                }
               ]
             },
             {
@@ -138,13 +117,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 52,
-                  "character": 25
-                }
               ]
             }
           ],
@@ -165,13 +137,6 @@
                 7
               ]
             }
-          ],
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 29,
-              "character": 25
-            }
           ]
         },
         {
@@ -187,13 +152,6 @@
           "comment": {
             "shortText": "A variable that is made private via comment."
           },
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 5,
-              "character": 32
-            }
-          ],
           "type": {
             "type": "stringLiteral",
             "value": "test"
@@ -213,13 +171,6 @@
           "comment": {
             "shortText": "A variable that is made protected via comment."
           },
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 11,
-              "character": 34
-            }
-          ],
           "type": {
             "type": "stringLiteral",
             "value": "test"
@@ -253,13 +204,6 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 17,
-              "character": 35
-            }
           ]
         },
         {
@@ -289,13 +233,6 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 23,
-              "character": 37
-            }
           ]
         }
       ],
@@ -323,20 +260,13 @@
             13
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "access.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     },
     {
       "id": 15,
       "name": "\"class\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -359,13 +289,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 123,
-                  "character": 24
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -380,13 +303,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 124,
-                  "character": 7
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "boolean"
@@ -401,13 +317,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 125,
-                  "character": 16
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "boolean"
@@ -422,13 +331,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 126,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "boolean"
@@ -446,13 +348,6 @@
                 65,
                 66
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 122,
-              "character": 26
             }
           ]
         },
@@ -475,13 +370,6 @@
                 "isExported": true,
                 "isAbstract": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 83,
-                  "character": 31
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -511,13 +399,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 85,
-                  "character": 39
-                }
               ]
             }
           ],
@@ -535,13 +416,6 @@
               "children": [
                 54
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 82,
-              "character": 39
             }
           ],
           "extendedBy": [
@@ -569,13 +443,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 89,
-                  "character": 22
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -615,13 +482,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 91,
-                  "character": 30
-                }
-              ],
               "overwrites": {
                 "type": "reference",
                 "id": 54,
@@ -643,13 +503,6 @@
               "children": [
                 58
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 88,
-              "character": 44
             }
           ],
           "extendedTypes": [
@@ -708,13 +561,6 @@
                     "name": "TestClass"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 23,
-                  "character": 37
-                }
               ]
             },
             {
@@ -729,13 +575,6 @@
               "comment": {
                 "shortText": "privateProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 18,
-                  "character": 27
-                }
-              ],
               "type": {
                 "type": "array",
                 "elementType": {
@@ -756,13 +595,6 @@
               "comment": {
                 "shortText": "publicProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 13,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -780,13 +612,6 @@
               "comment": {
                 "shortText": "privateProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 23,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "reference",
                 "id": 16,
@@ -821,13 +646,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 55,
-                  "character": 15
-                }
               ]
             },
             {
@@ -855,13 +673,6 @@
                     "type": "intrinsic",
                     "name": "void"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 45,
-                  "character": 25
                 }
               ]
             },
@@ -891,13 +702,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 40,
-                  "character": 29
-                }
               ]
             },
             {
@@ -926,13 +730,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 34,
-                  "character": 23
-                }
               ]
             },
             {
@@ -960,13 +757,6 @@
                     "type": "intrinsic",
                     "name": "void"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 50,
-                  "character": 23
                 }
               ]
             }
@@ -1015,13 +805,6 @@
                   ]
                 }
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 8,
-              "character": 22
             }
           ],
           "extendedBy": [
@@ -1142,13 +925,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 67,
-                  "character": 34
-                }
-              ],
               "overwrites": {
                 "type": "reference",
                 "id": 20,
@@ -1168,13 +944,6 @@
               "comment": {
                 "shortText": "Private string property"
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 77,
-                  "character": 30
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -1193,13 +962,6 @@
               "comment": {
                 "shortText": "Public number property"
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 77,
-                  "character": 49
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
@@ -1218,13 +980,6 @@
               "comment": {
                 "shortText": "Public implicit any property\n"
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 77,
-                  "character": 68
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "any"
@@ -1242,13 +997,6 @@
               "comment": {
                 "shortText": "publicProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 13,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -1271,13 +1019,6 @@
               "comment": {
                 "shortText": "privateProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 23,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "reference",
                 "id": 16,
@@ -1323,13 +1064,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 55,
-                  "character": 15
-                }
-              ],
               "inheritedFrom": {
                 "type": "reference",
                 "id": 30,
@@ -1360,13 +1094,6 @@
                     "type": "intrinsic",
                     "name": "any"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 98,
-                  "character": 16
                 }
               ]
             },
@@ -1400,13 +1127,6 @@
                     "id": 24,
                     "name": "TestClass.protectedMethod"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 67,
-                  "character": 29
                 }
               ],
               "overwrites": {
@@ -1447,13 +1167,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 62,
-                  "character": 23
-                }
-              ],
               "overwrites": {
                 "type": "reference",
                 "id": 22,
@@ -1461,7 +1174,7 @@
               }
             },
             {
-              "id": 67,
+              "id": 69,
               "name": "staticMergedMethod",
               "kind": 2048,
               "kindString": "Method",
@@ -1471,7 +1184,7 @@
               },
               "signatures": [
                 {
-                  "id": 68,
+                  "id": 70,
                   "name": "staticMergedMethod",
                   "kind": 4096,
                   "kindString": "Call signature",
@@ -1485,13 +1198,6 @@
                     "type": "intrinsic",
                     "name": "void"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 105,
-                  "character": 38
                 }
               ]
             },
@@ -1525,13 +1231,6 @@
                     "id": 28,
                     "name": "TestClass.staticMethod"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 50,
-                  "character": 23
                 }
               ],
               "inheritedFrom": {
@@ -1568,26 +1267,9 @@
                 60,
                 35,
                 33,
-                67,
+                69,
                 48
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 58,
-              "character": 25
-            },
-            {
-              "fileName": "class.ts",
-              "line": 94,
-              "character": 29
-            },
-            {
-              "fileName": "class.ts",
-              "line": 101,
-              "character": 26
             }
           ],
           "extendedTypes": [
@@ -1595,6 +1277,44 @@
               "type": "reference",
               "id": 16,
               "name": "TestClass"
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "name": "Ts38PrivateFields",
+          "kind": 128,
+          "kindString": "Class",
+          "flags": {
+            "isExported": true
+          },
+          "children": [
+            {
+              "id": 68,
+              "name": "#foo",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isPrivate": true,
+                "isExported": true
+              },
+              "comment": {
+                "shortText": "Docs"
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              },
+              "defaultValue": "1"
+            }
+          ],
+          "groups": [
+            {
+              "title": "Properties",
+              "kind": 1024,
+              "children": [
+                68
+              ]
             }
           ]
         }
@@ -1608,30 +1328,24 @@
             52,
             56,
             16,
-            32
+            32,
+            67
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "class.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 69,
+      "id": 71,
       "name": "\"clodule-with-subclass\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/clodule-with-subclass.ts",
       "children": [
         {
-          "id": 71,
+          "id": 73,
           "name": "Bar",
           "kind": 128,
           "kindString": "Class",
@@ -1640,7 +1354,7 @@
           },
           "children": [
             {
-              "id": 72,
+              "id": 74,
               "name": "x",
               "kind": 1024,
               "kindString": "Property",
@@ -1648,13 +1362,6 @@
                 "isStatic": true,
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "clodule-with-subclass.ts",
-                  "line": 4,
-                  "character": 16
-                }
-              ],
               "type": {
                 "type": "unknown",
                 "name": "1"
@@ -1667,27 +1374,20 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                72
+                74
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "clodule-with-subclass.ts",
-              "line": 7,
-              "character": 16
             }
           ],
           "extendedTypes": [
             {
               "type": "reference",
-              "id": 70,
+              "id": 72,
               "name": "Foo"
             }
           ]
         },
         {
-          "id": 70,
+          "id": 72,
           "name": "Foo",
           "kind": 128,
           "kindString": "Class",
@@ -1696,7 +1396,7 @@
           },
           "children": [
             {
-              "id": 73,
+              "id": 75,
               "name": "x",
               "kind": 1024,
               "kindString": "Property",
@@ -1704,13 +1404,6 @@
                 "isStatic": true,
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "clodule-with-subclass.ts",
-                  "line": 4,
-                  "character": 16
-                }
-              ],
               "type": {
                 "type": "unknown",
                 "name": "1"
@@ -1723,26 +1416,14 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                73
+                75
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "clodule-with-subclass.ts",
-              "line": 2,
-              "character": 16
-            },
-            {
-              "fileName": "clodule-with-subclass.ts",
-              "line": 3,
-              "character": 20
             }
           ],
           "extendedBy": [
             {
               "type": "reference",
-              "id": 71,
+              "id": 73,
               "name": "Bar"
             }
           ]
@@ -1753,133 +1434,84 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            71,
-            70
+            73,
+            72
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "clodule-with-subclass.ts",
-          "line": 1,
-          "character": 0
-        }
-      ]
-    },
-    {
-      "id": 74,
-      "name": "\"constructor-properties\"",
-      "kind": 1,
-      "kindString": "External module",
-      "flags": {
-        "isExported": true
-      },
-      "originalName": "%BASE%/class/constructor-properties.ts",
-      "sources": [
-        {
-          "fileName": "constructor-properties.ts",
-          "line": 1,
-          "character": 0
-        }
-      ]
-    },
-    {
-      "id": 75,
-      "name": "\"decorators\"",
-      "kind": 1,
-      "kindString": "External module",
-      "flags": {
-        "isExported": true
-      },
-      "originalName": "%BASE%/class/decorators.ts",
-      "sources": [
-        {
-          "fileName": "decorators.ts",
-          "line": 1,
-          "character": 0
-        }
-      ]
-    },
-    {
-      "id": 77,
-      "name": "\"events\"",
-      "kind": 1,
-      "kindString": "External module",
-      "flags": {
-        "isExported": true
-      },
-      "originalName": "%BASE%/class/events.ts",
-      "sources": [
-        {
-          "fileName": "events.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
       "id": 76,
-      "name": "\"events-overloads\"",
+      "name": "\"constructor-properties\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
-      "originalName": "%BASE%/class/events-overloads.ts",
-      "sources": [
-        {
-          "fileName": "events-overloads.ts",
-          "line": 1,
-          "character": 0
-        }
-      ]
+      "originalName": "%BASE%/class/constructor-properties.ts"
     },
     {
-      "id": 78,
-      "name": "\"generic-class\"",
+      "id": 77,
+      "name": "\"decorators\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
-      "originalName": "%BASE%/class/generic-class.ts",
-      "sources": [
-        {
-          "fileName": "generic-class.ts",
-          "line": 1,
-          "character": 0
-        }
-      ]
+      "originalName": "%BASE%/class/decorators.ts"
     },
     {
       "id": 79,
-      "name": "\"getter-setter\"",
+      "name": "\"events\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
-      "originalName": "%BASE%/class/getter-setter.ts",
-      "sources": [
-        {
-          "fileName": "getter-setter.ts",
-          "line": 1,
-          "character": 0
-        }
-      ]
+      "originalName": "%BASE%/class/events.ts"
+    },
+    {
+      "id": 78,
+      "name": "\"events-overloads\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/class/events-overloads.ts"
     },
     {
       "id": 80,
+      "name": "\"generic-class\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/class/generic-class.ts"
+    },
+    {
+      "id": 81,
+      "name": "\"getter-setter\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/class/getter-setter.ts"
+    },
+    {
+      "id": 82,
       "name": "\"this\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/this.ts",
       "children": [
         {
-          "id": 81,
+          "id": 83,
           "name": "ChainClass",
           "kind": 128,
           "kindString": "Class",
@@ -1892,7 +1524,7 @@
           },
           "children": [
             {
-              "id": 82,
+              "id": 84,
               "name": "chain",
               "kind": 2048,
               "kindString": "Method",
@@ -1902,7 +1534,7 @@
               },
               "signatures": [
                 {
-                  "id": 83,
+                  "id": 85,
                   "name": "chain",
                   "kind": 4096,
                   "kindString": "Call signature",
@@ -1917,13 +1549,6 @@
                     "name": "this"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "this.ts",
-                  "line": 10,
-                  "character": 16
-                }
               ]
             }
           ],
@@ -1932,15 +1557,8 @@
               "title": "Methods",
               "kind": 2048,
               "children": [
-                82
+                84
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "this.ts",
-              "line": 6,
-              "character": 23
             }
           ]
         }
@@ -1950,30 +1568,23 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            81
+            83
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "this.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 84,
+      "id": 86,
       "name": "\"type-operator\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/type-operator.ts",
       "children": [
         {
-          "id": 88,
+          "id": 90,
           "name": "GenericClass",
           "kind": 128,
           "kindString": "Class",
@@ -1982,7 +1593,7 @@
           },
           "typeParameter": [
             {
-              "id": 89,
+              "id": 91,
               "name": "T",
               "kind": 131072,
               "kindString": "Type parameter",
@@ -1994,7 +1605,7 @@
                 "operator": "keyof",
                 "target": {
                   "type": "reference",
-                  "id": 85,
+                  "id": 87,
                   "name": "TestClass"
                 }
               }
@@ -2002,20 +1613,13 @@
           ],
           "children": [
             {
-              "id": 90,
+              "id": 92,
               "name": "c",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "type-operator.ts",
-                  "line": 14,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "typeParameter",
                 "name": "T",
@@ -2024,7 +1628,7 @@
                   "operator": "keyof",
                   "target": {
                     "type": "reference",
-                    "id": 85,
+                    "id": 87,
                     "name": "TestClass"
                   }
                 }
@@ -2036,20 +1640,13 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                90
+                92
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "type-operator.ts",
-              "line": 13,
-              "character": 25
             }
           ]
         },
         {
-          "id": 85,
+          "id": 87,
           "name": "TestClass",
           "kind": 128,
           "kindString": "Class",
@@ -2068,40 +1665,26 @@
           },
           "children": [
             {
-              "id": 86,
+              "id": 88,
               "name": "a",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "type-operator.ts",
-                  "line": 9,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
               }
             },
             {
-              "id": 87,
+              "id": 89,
               "name": "b",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "type-operator.ts",
-                  "line": 10,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
@@ -2113,16 +1696,9 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                86,
-                87
+                88,
+                89
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "type-operator.ts",
-              "line": 8,
-              "character": 22
             }
           ]
         }
@@ -2132,36 +1708,29 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            88,
-            85
+            90,
+            87
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "type-operator.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     }
   ],
   "groups": [
     {
-      "title": "External modules",
+      "title": "Modules",
       "kind": 1,
       "children": [
         1,
         15,
-        69,
-        74,
-        75,
-        77,
+        71,
         76,
-        78,
+        77,
         79,
+        78,
         80,
-        84
+        81,
+        82,
+        86
       ]
     }
   ]

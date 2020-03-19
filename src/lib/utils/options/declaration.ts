@@ -53,6 +53,7 @@ export interface TypeDocOptionMap {
     excludePrivate: boolean;
     excludeProtected: boolean;
     ignoreCompilerErrors: boolean;
+    disableSources: boolean;
     includes: string;
     media: string;
 
@@ -68,6 +69,7 @@ export interface TypeDocOptionMap {
     categoryOrder: string[];
     categorizeByGroup: boolean;
     gitRevision: string;
+    gitRemote: string;
     gaID: string;
     gaSite: string;
     hideGenerator: boolean;

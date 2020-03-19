@@ -154,6 +154,14 @@ export class Context {
         return symbol;
     }
 
+    expectSymbolAtLocation(node: ts.Node): ts.Symbol {
+        const symbol = this.getSymbolAtLocation(node);
+        if (!symbol) {
+            throw new Error(`Expected a symbol for node with kind ${ts.SyntaxKind[node.kind]}`);
+        }
+        return symbol;
+    }
+
     resolveAliasedSymbol(symbol: ts.Symbol): ts.Symbol;
     resolveAliasedSymbol(symbol: ts.Symbol | undefined): ts.Symbol | undefined;
     resolveAliasedSymbol(symbol: ts.Symbol | undefined) {
@@ -400,9 +408,9 @@ export class Context {
     }
 }
 
-function isNamedNode(node: ts.Node): node is ts.Node & { name: ts.Identifier | ts.ComputedPropertyName } {
+function isNamedNode(node: ts.Node): node is ts.Node & { name: ts.Identifier | ts.PrivateIdentifier | ts.ComputedPropertyName } {
     return node['name'] && (
-        ts.isIdentifier(node['name']) ||
+        ts.isIdentifierOrPrivateIdentifier(node['name']) ||
         ts.isComputedPropertyName(node['name'])
     );
 }

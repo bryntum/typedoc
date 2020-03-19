@@ -8,7 +8,7 @@
       "id": 1,
       "name": "\"access\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -39,13 +39,6 @@
               "comment": {
                 "shortText": "A variable that is made private via comment."
               },
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 34,
-                  "character": 23
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -63,13 +56,6 @@
               "comment": {
                 "shortText": "A variable that is made protected via comment."
               },
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 40,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -102,13 +88,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 46,
-                  "character": 23
-                }
               ]
             },
             {
@@ -138,13 +117,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "access.ts",
-                  "line": 52,
-                  "character": 25
-                }
               ]
             }
           ],
@@ -165,13 +137,6 @@
                 7
               ]
             }
-          ],
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 29,
-              "character": 25
-            }
           ]
         },
         {
@@ -187,13 +152,6 @@
           "comment": {
             "shortText": "A variable that is made private via comment."
           },
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 5,
-              "character": 32
-            }
-          ],
           "type": {
             "type": "stringLiteral",
             "value": "test"
@@ -213,13 +171,6 @@
           "comment": {
             "shortText": "A variable that is made protected via comment."
           },
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 11,
-              "character": 34
-            }
-          ],
           "type": {
             "type": "stringLiteral",
             "value": "test"
@@ -253,13 +204,6 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 17,
-              "character": 35
-            }
           ]
         },
         {
@@ -289,13 +233,6 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "access.ts",
-              "line": 23,
-              "character": 37
-            }
           ]
         }
       ],
@@ -323,20 +260,13 @@
             13
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "access.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     },
     {
       "id": 15,
       "name": "\"class\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -359,13 +289,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 123,
-                  "character": 24
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -380,13 +303,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 124,
-                  "character": 7
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "boolean"
@@ -401,13 +317,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 125,
-                  "character": 16
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "boolean"
@@ -422,13 +331,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 126,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "boolean"
@@ -446,13 +348,6 @@
                 70,
                 71
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 122,
-              "character": 26
             }
           ]
         },
@@ -513,13 +408,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 115,
-                  "character": 7
-                }
               ]
             }
           ],
@@ -530,13 +418,6 @@
               "children": [
                 63
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 111,
-              "character": 31
             }
           ]
         },
@@ -559,13 +440,6 @@
                 "isExported": true,
                 "isAbstract": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 83,
-                  "character": 31
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -595,13 +469,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 85,
-                  "character": 39
-                }
               ]
             }
           ],
@@ -619,13 +486,6 @@
               "children": [
                 54
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 82,
-              "character": 39
             }
           ],
           "extendedBy": [
@@ -653,13 +513,6 @@
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 89,
-                  "character": 22
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -699,13 +552,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 91,
-                  "character": 30
-                }
-              ],
               "overwrites": {
                 "type": "reference",
                 "id": 54,
@@ -727,13 +573,6 @@
               "children": [
                 58
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 88,
-              "character": 44
             }
           ],
           "extendedTypes": [
@@ -792,13 +631,6 @@
                     "name": "TestClass"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 23,
-                  "character": 37
-                }
               ]
             },
             {
@@ -813,13 +645,6 @@
               "comment": {
                 "shortText": "privateProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 18,
-                  "character": 27
-                }
-              ],
               "type": {
                 "type": "array",
                 "elementType": {
@@ -840,13 +665,6 @@
               "comment": {
                 "shortText": "publicProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 13,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -864,13 +682,6 @@
               "comment": {
                 "shortText": "privateProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 23,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "reference",
                 "id": 16,
@@ -905,13 +716,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 55,
-                  "character": 15
-                }
               ]
             },
             {
@@ -939,13 +743,6 @@
                     "type": "intrinsic",
                     "name": "void"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 45,
-                  "character": 25
                 }
               ]
             },
@@ -975,13 +772,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 40,
-                  "character": 29
-                }
               ]
             },
             {
@@ -1010,13 +800,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 34,
-                  "character": 23
-                }
               ]
             },
             {
@@ -1044,13 +827,6 @@
                     "type": "intrinsic",
                     "name": "void"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 50,
-                  "character": 23
                 }
               ]
             }
@@ -1103,13 +879,6 @@
                 24,
                 22
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 8,
-              "character": 22
             }
           ],
           "extendedBy": [
@@ -1230,13 +999,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 67,
-                  "character": 34
-                }
-              ],
               "overwrites": {
                 "type": "reference",
                 "id": 20,
@@ -1256,13 +1018,6 @@
               "comment": {
                 "shortText": "Private string property"
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 77,
-                  "character": 30
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -1281,13 +1036,6 @@
               "comment": {
                 "shortText": "Public number property"
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 77,
-                  "character": 49
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
@@ -1306,13 +1054,6 @@
               "comment": {
                 "shortText": "Public implicit any property\n"
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 77,
-                  "character": 68
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "any"
@@ -1330,13 +1071,6 @@
               "comment": {
                 "shortText": "publicProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 13,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -1359,13 +1093,6 @@
               "comment": {
                 "shortText": "privateProperty short text."
               },
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 23,
-                  "character": 25
-                }
-              ],
               "type": {
                 "type": "reference",
                 "id": 16,
@@ -1411,13 +1138,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 55,
-                  "character": 15
-                }
-              ],
               "inheritedFrom": {
                 "type": "reference",
                 "id": 30,
@@ -1448,13 +1168,6 @@
                     "type": "intrinsic",
                     "name": "any"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 98,
-                  "character": 16
                 }
               ]
             },
@@ -1488,13 +1201,6 @@
                     "id": 24,
                     "name": "TestClass.protectedMethod"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 67,
-                  "character": 29
                 }
               ],
               "overwrites": {
@@ -1535,13 +1241,6 @@
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 62,
-                  "character": 23
-                }
-              ],
               "overwrites": {
                 "type": "reference",
                 "id": 22,
@@ -1549,7 +1248,7 @@
               }
             },
             {
-              "id": 72,
+              "id": 74,
               "name": "staticMergedMethod",
               "kind": 2048,
               "kindString": "Method",
@@ -1559,7 +1258,7 @@
               },
               "signatures": [
                 {
-                  "id": 73,
+                  "id": 75,
                   "name": "staticMergedMethod",
                   "kind": 4096,
                   "kindString": "Call signature",
@@ -1573,13 +1272,6 @@
                     "type": "intrinsic",
                     "name": "void"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 105,
-                  "character": 38
                 }
               ]
             },
@@ -1613,13 +1305,6 @@
                     "id": 28,
                     "name": "TestClass.staticMethod"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "class.ts",
-                  "line": 50,
-                  "character": 23
                 }
               ],
               "inheritedFrom": {
@@ -1656,26 +1341,9 @@
                 60,
                 35,
                 33,
-                72,
+                74,
                 48
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 58,
-              "character": 25
-            },
-            {
-              "fileName": "class.ts",
-              "line": 94,
-              "character": 29
-            },
-            {
-              "fileName": "class.ts",
-              "line": 101,
-              "character": 26
             }
           ],
           "extendedTypes": [
@@ -1687,20 +1355,51 @@
           ]
         },
         {
-          "id": 74,
+          "id": 72,
+          "name": "Ts38PrivateFields",
+          "kind": 128,
+          "kindString": "Class",
+          "flags": {
+            "isExported": true
+          },
+          "children": [
+            {
+              "id": 73,
+              "name": "#foo",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isPrivate": true,
+                "isExported": true
+              },
+              "comment": {
+                "shortText": "Docs"
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              },
+              "defaultValue": "1"
+            }
+          ],
+          "groups": [
+            {
+              "title": "Properties",
+              "kind": 1024,
+              "children": [
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "id": 76,
           "name": "x",
           "kind": 32,
           "kindString": "Variable",
           "flags": {
             "isConst": true
           },
-          "sources": [
-            {
-              "fileName": "class.ts",
-              "line": 120,
-              "character": 7
-            }
-          ],
           "type": {
             "type": "stringLiteral",
             "value": "literal"
@@ -1718,37 +1417,31 @@
             52,
             56,
             16,
-            32
+            32,
+            72
           ]
         },
         {
           "title": "Variables",
           "kind": 32,
           "children": [
-            74
+            76
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "class.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 75,
+      "id": 77,
       "name": "\"clodule-with-subclass\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/clodule-with-subclass.ts",
       "children": [
         {
-          "id": 77,
+          "id": 79,
           "name": "Bar",
           "kind": 128,
           "kindString": "Class",
@@ -1757,7 +1450,7 @@
           },
           "children": [
             {
-              "id": 78,
+              "id": 80,
               "name": "x",
               "kind": 1024,
               "kindString": "Property",
@@ -1765,13 +1458,6 @@
                 "isStatic": true,
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "clodule-with-subclass.ts",
-                  "line": 4,
-                  "character": 16
-                }
-              ],
               "type": {
                 "type": "unknown",
                 "name": "1"
@@ -1784,27 +1470,20 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                78
+                80
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "clodule-with-subclass.ts",
-              "line": 7,
-              "character": 16
             }
           ],
           "extendedTypes": [
             {
               "type": "reference",
-              "id": 76,
+              "id": 78,
               "name": "Foo"
             }
           ]
         },
         {
-          "id": 76,
+          "id": 78,
           "name": "Foo",
           "kind": 128,
           "kindString": "Class",
@@ -1813,7 +1492,7 @@
           },
           "children": [
             {
-              "id": 79,
+              "id": 81,
               "name": "x",
               "kind": 1024,
               "kindString": "Property",
@@ -1821,13 +1500,6 @@
                 "isStatic": true,
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "clodule-with-subclass.ts",
-                  "line": 4,
-                  "character": 16
-                }
-              ],
               "type": {
                 "type": "unknown",
                 "name": "1"
@@ -1840,26 +1512,14 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                79
+                81
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "clodule-with-subclass.ts",
-              "line": 2,
-              "character": 16
-            },
-            {
-              "fileName": "clodule-with-subclass.ts",
-              "line": 3,
-              "character": 20
             }
           ],
           "extendedBy": [
             {
               "type": "reference",
-              "id": 77,
+              "id": 79,
               "name": "Bar"
             }
           ]
@@ -1870,31 +1530,24 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            77,
-            76
+            79,
+            78
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "clodule-with-subclass.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 80,
+      "id": 82,
       "name": "\"constructor-properties\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/constructor-properties.ts",
       "children": [
         {
-          "id": 81,
+          "id": 83,
           "name": "Vector2",
           "kind": 128,
           "kindString": "Class",
@@ -1904,7 +1557,7 @@
           },
           "children": [
             {
-              "id": 82,
+              "id": 84,
               "name": "constructor",
               "kind": 512,
               "kindString": "Constructor",
@@ -1912,7 +1565,7 @@
               "comment": {},
               "signatures": [
                 {
-                  "id": 86,
+                  "id": 88,
                   "name": "new Vector2",
                   "kind": 16384,
                   "kindString": "Constructor signature",
@@ -1920,7 +1573,7 @@
                   "comment": {},
                   "parameters": [
                     {
-                      "id": 87,
+                      "id": 89,
                       "name": "x",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -1934,7 +1587,7 @@
                       }
                     },
                     {
-                      "id": 88,
+                      "id": 90,
                       "name": "y",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -1948,7 +1601,7 @@
                       }
                     },
                     {
-                      "id": 89,
+                      "id": 91,
                       "name": "name",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -1964,21 +1617,14 @@
                   ],
                   "type": {
                     "type": "reference",
-                    "id": 81,
+                    "id": 83,
                     "name": "Vector2"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 4,
-                  "character": 15
                 }
               ]
             },
             {
-              "id": 85,
+              "id": 87,
               "name": "name",
               "kind": 1024,
               "kindString": "Property",
@@ -1988,20 +1634,13 @@
               "comment": {
                 "shortText": "Vector name\n"
               },
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 11,
-                  "character": 29
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
               }
             },
             {
-              "id": 83,
+              "id": 85,
               "name": "x",
               "kind": 1024,
               "kindString": "Property",
@@ -2012,20 +1651,13 @@
               "comment": {
                 "shortText": "X component of the Vector"
               },
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 10,
-                  "character": 24
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
               }
             },
             {
-              "id": 84,
+              "id": 86,
               "name": "y",
               "kind": 1024,
               "kindString": "Property",
@@ -2036,13 +1668,6 @@
               "comment": {
                 "shortText": "Y component of the Vector"
               },
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 10,
-                  "character": 42
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
@@ -2054,36 +1679,29 @@
               "title": "Constructors",
               "kind": 512,
               "children": [
-                82
+                84
               ]
             },
             {
               "title": "Properties",
               "kind": 1024,
               "children": [
+                87,
                 85,
-                83,
-                84
+                86
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "constructor-properties.ts",
-              "line": 4,
-              "character": 13
             }
           ],
           "extendedBy": [
             {
               "type": "reference",
-              "id": 90,
+              "id": 92,
               "name": "Vector3"
             }
           ]
         },
         {
-          "id": 90,
+          "id": 92,
           "name": "Vector3",
           "kind": 128,
           "kindString": "Class",
@@ -2093,7 +1711,7 @@
           },
           "children": [
             {
-              "id": 91,
+              "id": 93,
               "name": "constructor",
               "kind": 512,
               "kindString": "Constructor",
@@ -2101,7 +1719,7 @@
               "comment": {},
               "signatures": [
                 {
-                  "id": 95,
+                  "id": 97,
                   "name": "new Vector3",
                   "kind": 16384,
                   "kindString": "Constructor signature",
@@ -2109,7 +1727,7 @@
                   "comment": {},
                   "parameters": [
                     {
-                      "id": 96,
+                      "id": 98,
                       "name": "x",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2123,7 +1741,7 @@
                       }
                     },
                     {
-                      "id": 97,
+                      "id": 99,
                       "name": "y",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2137,7 +1755,7 @@
                       }
                     },
                     {
-                      "id": 98,
+                      "id": 100,
                       "name": "z",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2151,7 +1769,7 @@
                       }
                     },
                     {
-                      "id": 99,
+                      "id": 101,
                       "name": "name",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2167,31 +1785,24 @@
                   ],
                   "type": {
                     "type": "reference",
-                    "id": 90,
+                    "id": 92,
                     "name": "Vector3"
                   },
                   "overwrites": {
                     "type": "reference",
-                    "id": 82,
+                    "id": 84,
                     "name": "Vector2.__constructor"
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 18,
-                  "character": 31
-                }
-              ],
               "overwrites": {
                 "type": "reference",
-                "id": 82,
+                "id": 84,
                 "name": "Vector2.__constructor"
               }
             },
             {
-              "id": 94,
+              "id": 96,
               "name": "name",
               "kind": 1024,
               "kindString": "Property",
@@ -2201,25 +1812,18 @@
               "comment": {
                 "shortText": "Vector name\n"
               },
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 26,
-                  "character": 29
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
               },
               "overwrites": {
                 "type": "reference",
-                "id": 85,
+                "id": 87,
                 "name": "Vector2.name"
               }
             },
             {
-              "id": 100,
+              "id": 102,
               "name": "x",
               "kind": 1024,
               "kindString": "Property",
@@ -2230,25 +1834,18 @@
               "comment": {
                 "shortText": "X component of the Vector"
               },
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 10,
-                  "character": 24
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
               },
               "inheritedFrom": {
                 "type": "reference",
-                "id": 83,
+                "id": 85,
                 "name": "Vector2.x"
               }
             },
             {
-              "id": 92,
+              "id": 94,
               "name": "y",
               "kind": 1024,
               "kindString": "Property",
@@ -2259,25 +1856,18 @@
               "comment": {
                 "shortText": "Y component of the Vector"
               },
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 25,
-                  "character": 35
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
               },
               "overwrites": {
                 "type": "reference",
-                "id": 84,
+                "id": 86,
                 "name": "Vector2.y"
               }
             },
             {
-              "id": 93,
+              "id": 95,
               "name": "z",
               "kind": 1024,
               "kindString": "Property",
@@ -2288,13 +1878,6 @@
               "comment": {
                 "shortText": "Z component of the Vector"
               },
-              "sources": [
-                {
-                  "fileName": "constructor-properties.ts",
-                  "line": 25,
-                  "character": 53
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
@@ -2306,31 +1889,24 @@
               "title": "Constructors",
               "kind": 512,
               "children": [
-                91
+                93
               ]
             },
             {
               "title": "Properties",
               "kind": 1024,
               "children": [
+                96,
+                102,
                 94,
-                100,
-                92,
-                93
+                95
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "constructor-properties.ts",
-              "line": 18,
-              "character": 13
             }
           ],
           "extendedTypes": [
             {
               "type": "reference",
-              "id": 81,
+              "id": 83,
               "name": "Vector2"
             }
           ]
@@ -2341,31 +1917,24 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            81,
-            90
+            83,
+            92
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "constructor-properties.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 101,
+      "id": 103,
       "name": "\"decorators\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/decorators.ts",
       "children": [
         {
-          "id": 102,
+          "id": 104,
           "name": "DecoratedClass",
           "kind": 128,
           "kindString": "Class",
@@ -2378,7 +1947,7 @@
               "name": "decoratorWithOptions",
               "type": {
                 "type": "reference",
-                "id": 113,
+                "id": 115,
                 "name": "decoratorWithOptions"
               },
               "arguments": {
@@ -2388,7 +1957,7 @@
           ],
           "children": [
             {
-              "id": 103,
+              "id": 105,
               "name": "decoratedMethod",
               "kind": 2048,
               "kindString": "Method",
@@ -2398,7 +1967,7 @@
                   "name": "decoratorAtom",
                   "type": {
                     "type": "reference",
-                    "id": 105,
+                    "id": 107,
                     "name": "decoratorAtom"
                   }
                 },
@@ -2406,7 +1975,7 @@
                   "name": "decoratorWithParam",
                   "type": {
                     "type": "reference",
-                    "id": 110,
+                    "id": 112,
                     "name": "decoratorWithParam"
                   },
                   "arguments": {
@@ -2416,7 +1985,7 @@
               ],
               "signatures": [
                 {
-                  "id": 104,
+                  "id": 106,
                   "name": "decoratedMethod",
                   "kind": 4096,
                   "kindString": "Call signature",
@@ -2429,13 +1998,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "decorators.ts",
-                  "line": 13,
-                  "character": 19
-                }
               ]
             }
           ],
@@ -2444,20 +2006,13 @@
               "title": "Methods",
               "kind": 2048,
               "children": [
-                103
+                105
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "decorators.ts",
-              "line": 7,
-              "character": 20
             }
           ]
         },
         {
-          "id": 105,
+          "id": 107,
           "name": "decoratorAtom",
           "kind": 64,
           "kindString": "Function",
@@ -2465,13 +2020,13 @@
           "decorates": [
             {
               "type": "reference",
-              "id": 103,
+              "id": 105,
               "name": "decoratedMethod"
             }
           ],
           "signatures": [
             {
-              "id": 106,
+              "id": 108,
               "name": "decoratorAtom",
               "kind": 4096,
               "kindString": "Call signature",
@@ -2481,7 +2036,7 @@
               },
               "parameters": [
                 {
-                  "id": 107,
+                  "id": 109,
                   "name": "target",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -2492,7 +2047,7 @@
                   }
                 },
                 {
-                  "id": 108,
+                  "id": 110,
                   "name": "propertyKey",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -2512,7 +2067,7 @@
                   }
                 },
                 {
-                  "id": 109,
+                  "id": 111,
                   "name": "descriptor",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -2534,17 +2089,10 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "decorators.ts",
-              "line": 19,
-              "character": 22
-            }
           ]
         },
         {
-          "id": 113,
+          "id": 115,
           "name": "decoratorWithOptions",
           "kind": 64,
           "kindString": "Function",
@@ -2552,13 +2100,13 @@
           "decorates": [
             {
               "type": "reference",
-              "id": 102,
+              "id": 104,
               "name": "DecoratedClass"
             }
           ],
           "signatures": [
             {
-              "id": 114,
+              "id": 116,
               "name": "decoratorWithOptions",
               "kind": 4096,
               "kindString": "Call signature",
@@ -2568,7 +2116,7 @@
               },
               "parameters": [
                 {
-                  "id": 115,
+                  "id": 117,
                   "name": "options",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -2579,14 +2127,14 @@
                   "type": {
                     "type": "reflection",
                     "declaration": {
-                      "id": 116,
+                      "id": 118,
                       "name": "__type",
                       "kind": 65536,
                       "kindString": "Type literal",
                       "flags": {},
                       "children": [
                         {
-                          "id": 117,
+                          "id": 119,
                           "name": "name",
                           "kind": 32,
                           "kindString": "Variable",
@@ -2594,13 +2142,6 @@
                           "comment": {
                             "text": "A property on the options object of this decorator.\n"
                           },
-                          "sources": [
-                            {
-                              "fileName": "decorators.ts",
-                              "line": 40,
-                              "character": 44
-                            }
-                          ],
                           "type": {
                             "type": "intrinsic",
                             "name": "string"
@@ -2612,15 +2153,8 @@
                           "title": "Variables",
                           "kind": 32,
                           "children": [
-                            117
+                            119
                           ]
-                        }
-                      ],
-                      "sources": [
-                        {
-                          "fileName": "decorators.ts",
-                          "line": 40,
-                          "character": 38
                         }
                       ]
                     }
@@ -2632,17 +2166,10 @@
                 "name": "ClassDecorator"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "decorators.ts",
-              "line": 40,
-              "character": 29
-            }
           ]
         },
         {
-          "id": 110,
+          "id": 112,
           "name": "decoratorWithParam",
           "kind": 64,
           "kindString": "Function",
@@ -2650,13 +2177,13 @@
           "decorates": [
             {
               "type": "reference",
-              "id": 103,
+              "id": 105,
               "name": "decoratedMethod"
             }
           ],
           "signatures": [
             {
-              "id": 111,
+              "id": 113,
               "name": "decoratorWithParam",
               "kind": 4096,
               "kindString": "Call signature",
@@ -2666,7 +2193,7 @@
               },
               "parameters": [
                 {
-                  "id": 112,
+                  "id": 114,
                   "name": "value",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -2685,13 +2212,6 @@
                 "name": "MethodDecorator"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "decorators.ts",
-              "line": 28,
-              "character": 27
-            }
           ]
         }
       ],
@@ -2700,46 +2220,39 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            102
+            104
           ]
         },
         {
           "title": "Functions",
           "kind": 64,
           "children": [
-            105,
-            113,
-            110
+            107,
+            115,
+            112
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "decorators.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 145,
+      "id": 147,
       "name": "\"events\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/events.ts",
       "children": [
         {
-          "id": 146,
+          "id": 148,
           "name": "EventDispatcher",
           "kind": 128,
           "kindString": "Class",
           "flags": {},
           "children": [
             {
-              "id": 147,
+              "id": 149,
               "name": "EVENT_CLICK",
               "kind": 8388608,
               "kindString": "Event",
@@ -2749,13 +2262,6 @@
               "comment": {
                 "shortText": "This is an event documentation."
               },
-              "sources": [
-                {
-                  "fileName": "events.ts",
-                  "line": 6,
-                  "character": 22
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
@@ -2768,15 +2274,8 @@
               "title": "Events",
               "kind": 8388608,
               "children": [
-                147
+                149
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "events.ts",
-              "line": 1,
-              "character": 21
             }
           ]
         }
@@ -2786,30 +2285,23 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            146
+            148
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "events.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 118,
+      "id": 120,
       "name": "\"events-overloads\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/events-overloads.ts",
       "children": [
         {
-          "id": 119,
+          "id": 121,
           "name": "Test",
           "kind": 256,
           "kindString": "Interface",
@@ -2825,14 +2317,14 @@
           },
           "children": [
             {
-              "id": 120,
+              "id": 122,
               "name": "on",
               "kind": 8388608,
               "kindString": "Event",
               "flags": {},
               "signatures": [
                 {
-                  "id": 121,
+                  "id": 123,
                   "name": "on",
                   "kind": 8388608,
                   "kindString": "Event",
@@ -2842,7 +2334,7 @@
                   },
                   "parameters": [
                     {
-                      "id": 122,
+                      "id": 124,
                       "name": "event",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2856,7 +2348,7 @@
                       }
                     },
                     {
-                      "id": 123,
+                      "id": 125,
                       "name": "handler",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2867,21 +2359,21 @@
                       "type": {
                         "type": "reflection",
                         "declaration": {
-                          "id": 124,
+                          "id": 126,
                           "name": "__type",
                           "kind": 65536,
                           "kindString": "Type literal",
                           "flags": {},
                           "signatures": [
                             {
-                              "id": 125,
+                              "id": 127,
                               "name": "__call",
                               "kind": 4096,
                               "kindString": "Call signature",
                               "flags": {},
                               "parameters": [
                                 {
-                                  "id": 126,
+                                  "id": 128,
                                   "name": "e",
                                   "kind": 32768,
                                   "kindString": "Parameter",
@@ -2897,13 +2389,6 @@
                                 "name": "void"
                               }
                             }
-                          ],
-                          "sources": [
-                            {
-                              "fileName": "events-overloads.ts",
-                              "line": 14,
-                              "character": 30
-                            }
                           ]
                         }
                       }
@@ -2915,7 +2400,7 @@
                   }
                 },
                 {
-                  "id": 127,
+                  "id": 129,
                   "name": "on",
                   "kind": 8388608,
                   "kindString": "Event",
@@ -2925,7 +2410,7 @@
                   },
                   "parameters": [
                     {
-                      "id": 128,
+                      "id": 130,
                       "name": "event",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2939,7 +2424,7 @@
                       }
                     },
                     {
-                      "id": 129,
+                      "id": 131,
                       "name": "handler",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -2950,21 +2435,21 @@
                       "type": {
                         "type": "reflection",
                         "declaration": {
-                          "id": 130,
+                          "id": 132,
                           "name": "__type",
                           "kind": 65536,
                           "kindString": "Type literal",
                           "flags": {},
                           "signatures": [
                             {
-                              "id": 131,
+                              "id": 133,
                               "name": "__call",
                               "kind": 4096,
                               "kindString": "Call signature",
                               "flags": {},
                               "parameters": [
                                 {
-                                  "id": 132,
+                                  "id": 134,
                                   "name": "e",
                                   "kind": 32768,
                                   "kindString": "Parameter",
@@ -2980,13 +2465,6 @@
                                 "name": "void"
                               }
                             }
-                          ],
-                          "sources": [
-                            {
-                              "fileName": "events-overloads.ts",
-                              "line": 23,
-                              "character": 31
-                            }
                           ]
                         }
                       }
@@ -2998,7 +2476,7 @@
                   }
                 },
                 {
-                  "id": 133,
+                  "id": 135,
                   "name": "on",
                   "kind": 8388608,
                   "kindString": "Event",
@@ -3008,7 +2486,7 @@
                   },
                   "parameters": [
                     {
-                      "id": 134,
+                      "id": 136,
                       "name": "event",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3022,7 +2500,7 @@
                       }
                     },
                     {
-                      "id": 135,
+                      "id": 137,
                       "name": "handler",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3033,21 +2511,21 @@
                       "type": {
                         "type": "reflection",
                         "declaration": {
-                          "id": 136,
+                          "id": 138,
                           "name": "__type",
                           "kind": 65536,
                           "kindString": "Type literal",
                           "flags": {},
                           "signatures": [
                             {
-                              "id": 137,
+                              "id": 139,
                               "name": "__call",
                               "kind": 4096,
                               "kindString": "Call signature",
                               "flags": {},
                               "parameters": [
                                 {
-                                  "id": 138,
+                                  "id": 140,
                                   "name": "e",
                                   "kind": 32768,
                                   "kindString": "Parameter",
@@ -3063,13 +2541,6 @@
                                 "name": "void"
                               }
                             }
-                          ],
-                          "sources": [
-                            {
-                              "fileName": "events-overloads.ts",
-                              "line": 32,
-                              "character": 34
-                            }
                           ]
                         }
                       }
@@ -3081,7 +2552,7 @@
                   }
                 },
                 {
-                  "id": 139,
+                  "id": 141,
                   "name": "on",
                   "kind": 8388608,
                   "kindString": "Event",
@@ -3091,7 +2562,7 @@
                   },
                   "parameters": [
                     {
-                      "id": 140,
+                      "id": 142,
                       "name": "event",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3105,7 +2576,7 @@
                       }
                     },
                     {
-                      "id": 141,
+                      "id": 143,
                       "name": "handler",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3116,21 +2587,21 @@
                       "type": {
                         "type": "reflection",
                         "declaration": {
-                          "id": 142,
+                          "id": 144,
                           "name": "__type",
                           "kind": 65536,
                           "kindString": "Type literal",
                           "flags": {},
                           "signatures": [
                             {
-                              "id": 143,
+                              "id": 145,
                               "name": "__call",
                               "kind": 4096,
                               "kindString": "Call signature",
                               "flags": {},
                               "parameters": [
                                 {
-                                  "id": 144,
+                                  "id": 146,
                                   "name": "e",
                                   "kind": 32768,
                                   "kindString": "Parameter",
@@ -3146,13 +2617,6 @@
                                 "name": "void"
                               }
                             }
-                          ],
-                          "sources": [
-                            {
-                              "fileName": "events-overloads.ts",
-                              "line": 41,
-                              "character": 34
-                            }
                           ]
                         }
                       }
@@ -3163,28 +2627,6 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "events-overloads.ts",
-                  "line": 14,
-                  "character": 6
-                },
-                {
-                  "fileName": "events-overloads.ts",
-                  "line": 23,
-                  "character": 6
-                },
-                {
-                  "fileName": "events-overloads.ts",
-                  "line": 32,
-                  "character": 6
-                },
-                {
-                  "fileName": "events-overloads.ts",
-                  "line": 41,
-                  "character": 6
-                }
               ]
             }
           ],
@@ -3193,15 +2635,8 @@
               "title": "Events",
               "kind": 8388608,
               "children": [
-                120
+                122
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "events-overloads.ts",
-              "line": 6,
-              "character": 14
             }
           ]
         }
@@ -3211,30 +2646,23 @@
           "title": "Interfaces",
           "kind": 256,
           "children": [
-            119
+            121
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "events-overloads.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 148,
+      "id": 150,
       "name": "\"generic-class\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/generic-class.ts",
       "children": [
         {
-          "id": 149,
+          "id": 151,
           "name": "GenericClass",
           "kind": 128,
           "kindString": "Class",
@@ -3244,7 +2672,7 @@
           },
           "typeParameter": [
             {
-              "id": 150,
+              "id": 152,
               "name": "T",
               "kind": 131072,
               "kindString": "Type parameter",
@@ -3256,7 +2684,7 @@
           ],
           "children": [
             {
-              "id": 153,
+              "id": 155,
               "name": "constructor",
               "kind": 512,
               "kindString": "Constructor",
@@ -3266,7 +2694,7 @@
               },
               "signatures": [
                 {
-                  "id": 154,
+                  "id": 156,
                   "name": "new GenericClass",
                   "kind": 16384,
                   "kindString": "Constructor signature",
@@ -3276,7 +2704,7 @@
                   },
                   "parameters": [
                     {
-                      "id": 155,
+                      "id": 157,
                       "name": "value",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3292,21 +2720,14 @@
                   ],
                   "type": {
                     "type": "reference",
-                    "id": 149,
+                    "id": 151,
                     "name": "GenericClass"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 14,
-                  "character": 26
                 }
               ]
             },
             {
-              "id": 151,
+              "id": 153,
               "name": "value",
               "kind": 1024,
               "kindString": "Property",
@@ -3316,20 +2737,13 @@
               "comment": {
                 "shortText": "Generic property."
               },
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 9,
-                  "character": 19
-                }
-              ],
               "type": {
                 "type": "typeParameter",
                 "name": "T"
               }
             },
             {
-              "id": 152,
+              "id": 154,
               "name": "values",
               "kind": 1024,
               "kindString": "Property",
@@ -3339,13 +2753,6 @@
               "comment": {
                 "shortText": "Generic property array."
               },
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 14,
-                  "character": 20
-                }
-              ],
               "type": {
                 "type": "array",
                 "elementType": {
@@ -3355,14 +2762,14 @@
               }
             },
             {
-              "id": 156,
+              "id": 158,
               "name": "getValue",
               "kind": 2048,
               "kindString": "Method",
               "flags": {},
               "signatures": [
                 {
-                  "id": 157,
+                  "id": 159,
                   "name": "getValue",
                   "kind": 4096,
                   "kindString": "Call signature",
@@ -3376,13 +2783,6 @@
                     "name": "T"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 28,
-                  "character": 12
-                }
               ]
             }
           ],
@@ -3391,42 +2791,35 @@
               "title": "Constructors",
               "kind": 512,
               "children": [
-                153
+                155
               ]
             },
             {
               "title": "Properties",
               "kind": 1024,
               "children": [
-                151,
-                152
+                153,
+                154
               ]
             },
             {
               "title": "Methods",
               "kind": 2048,
               "children": [
-                156
+                158
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "generic-class.ts",
-              "line": 5,
-              "character": 18
             }
           ],
           "extendedBy": [
             {
               "type": "reference",
-              "id": 158,
+              "id": 160,
               "name": "NonGenericClass"
             }
           ]
         },
         {
-          "id": 158,
+          "id": 160,
           "name": "NonGenericClass",
           "kind": 128,
           "kindString": "Class",
@@ -3436,7 +2829,7 @@
           },
           "children": [
             {
-              "id": 161,
+              "id": 163,
               "name": "constructor",
               "kind": 512,
               "kindString": "Constructor",
@@ -3446,7 +2839,7 @@
               },
               "signatures": [
                 {
-                  "id": 162,
+                  "id": 164,
                   "name": "new NonGenericClass",
                   "kind": 16384,
                   "kindString": "Constructor signature",
@@ -3456,7 +2849,7 @@
                   },
                   "parameters": [
                     {
-                      "id": 163,
+                      "id": 165,
                       "name": "value",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3472,31 +2865,24 @@
                   ],
                   "type": {
                     "type": "reference",
-                    "id": 158,
+                    "id": 160,
                     "name": "NonGenericClass"
                   },
                   "inheritedFrom": {
                     "type": "reference",
-                    "id": 153,
+                    "id": 155,
                     "name": "GenericClass.__constructor"
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 14,
-                  "character": 26
-                }
-              ],
               "inheritedFrom": {
                 "type": "reference",
-                "id": 153,
+                "id": 155,
                 "name": "GenericClass.__constructor"
               }
             },
             {
-              "id": 159,
+              "id": 161,
               "name": "value",
               "kind": 1024,
               "kindString": "Property",
@@ -3506,25 +2892,18 @@
               "comment": {
                 "shortText": "Generic property."
               },
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 9,
-                  "character": 19
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
               },
               "inheritedFrom": {
                 "type": "reference",
-                "id": 151,
+                "id": 153,
                 "name": "GenericClass.value"
               }
             },
             {
-              "id": 160,
+              "id": 162,
               "name": "values",
               "kind": 1024,
               "kindString": "Property",
@@ -3534,13 +2913,6 @@
               "comment": {
                 "shortText": "Generic property array."
               },
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 14,
-                  "character": 20
-                }
-              ],
               "type": {
                 "type": "array",
                 "elementType": {
@@ -3550,19 +2922,19 @@
               },
               "inheritedFrom": {
                 "type": "reference",
-                "id": 152,
+                "id": 154,
                 "name": "GenericClass.values"
               }
             },
             {
-              "id": 164,
+              "id": 166,
               "name": "getValue",
               "kind": 2048,
               "kindString": "Method",
               "flags": {},
               "signatures": [
                 {
-                  "id": 165,
+                  "id": 167,
                   "name": "getValue",
                   "kind": 4096,
                   "kindString": "Call signature",
@@ -3577,21 +2949,14 @@
                   },
                   "inheritedFrom": {
                     "type": "reference",
-                    "id": 156,
+                    "id": 158,
                     "name": "GenericClass.getValue"
                   }
                 }
               ],
-              "sources": [
-                {
-                  "fileName": "generic-class.ts",
-                  "line": 28,
-                  "character": 12
-                }
-              ],
               "inheritedFrom": {
                 "type": "reference",
-                "id": 156,
+                "id": 158,
                 "name": "GenericClass.getValue"
               }
             }
@@ -3601,36 +2966,29 @@
               "title": "Constructors",
               "kind": 512,
               "children": [
-                161
+                163
               ]
             },
             {
               "title": "Properties",
               "kind": 1024,
               "children": [
-                159,
-                160
+                161,
+                162
               ]
             },
             {
               "title": "Methods",
               "kind": 2048,
               "children": [
-                164
+                166
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "generic-class.ts",
-              "line": 36,
-              "character": 21
             }
           ],
           "extendedTypes": [
             {
               "type": "reference",
-              "id": 149,
+              "id": 151,
               "typeArguments": [
                 {
                   "type": "intrinsic",
@@ -3647,65 +3005,51 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            149,
-            158
+            151,
+            160
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "generic-class.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 166,
+      "id": 168,
       "name": "\"getter-setter\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/getter-setter.ts",
       "children": [
         {
-          "id": 167,
+          "id": 169,
           "name": "GetterSetter",
           "kind": 128,
           "kindString": "Class",
           "flags": {},
           "children": [
             {
-              "id": 168,
+              "id": 170,
               "name": "_name",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isPrivate": true
               },
-              "sources": [
-                {
-                  "fileName": "getter-setter.ts",
-                  "line": 2,
-                  "character": 17
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
               }
             },
             {
-              "id": 169,
+              "id": 171,
               "name": "name",
               "kind": 262144,
               "kindString": "Accessor",
               "flags": {},
               "getSignature": [
                 {
-                  "id": 170,
+                  "id": 172,
                   "name": "__get",
                   "kind": 524288,
                   "kindString": "Get signature",
@@ -3718,14 +3062,14 @@
               ],
               "setSignature": [
                 {
-                  "id": 171,
+                  "id": 173,
                   "name": "__set",
                   "kind": 1048576,
                   "kindString": "Set signature",
                   "flags": {},
                   "parameters": [
                     {
-                      "id": 172,
+                      "id": 174,
                       "name": "value",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3741,29 +3085,17 @@
                     "name": "void"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "getter-setter.ts",
-                  "line": 4,
-                  "character": 12
-                },
-                {
-                  "fileName": "getter-setter.ts",
-                  "line": 5,
-                  "character": 12
-                }
               ]
             },
             {
-              "id": 173,
+              "id": 175,
               "name": "readOnlyName",
               "kind": 262144,
               "kindString": "Accessor",
               "flags": {},
               "getSignature": [
                 {
-                  "id": 174,
+                  "id": 176,
                   "name": "__get",
                   "kind": 524288,
                   "kindString": "Get signature",
@@ -3773,31 +3105,24 @@
                     "name": "string"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "getter-setter.ts",
-                  "line": 7,
-                  "character": 20
-                }
               ]
             },
             {
-              "id": 175,
+              "id": 177,
               "name": "writeOnlyName",
               "kind": 262144,
               "kindString": "Accessor",
               "flags": {},
               "setSignature": [
                 {
-                  "id": 176,
+                  "id": 178,
                   "name": "__set",
                   "kind": 1048576,
                   "kindString": "Set signature",
                   "flags": {},
                   "parameters": [
                     {
-                      "id": 177,
+                      "id": 179,
                       "name": "value",
                       "kind": 32768,
                       "kindString": "Parameter",
@@ -3812,13 +3137,6 @@
                     "type": "intrinsic",
                     "name": "void"
                   }
-                }
-              ],
-              "sources": [
-                {
-                  "fileName": "getter-setter.ts",
-                  "line": 9,
-                  "character": 21
                 }
               ]
             }
@@ -3828,24 +3146,17 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                168
+                170
               ]
             },
             {
               "title": "Accessors",
               "kind": 262144,
               "children": [
-                169,
-                173,
-                175
+                171,
+                175,
+                177
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "getter-setter.ts",
-              "line": 1,
-              "character": 18
             }
           ]
         }
@@ -3855,30 +3166,23 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            167
+            169
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "getter-setter.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 178,
+      "id": 180,
       "name": "\"this\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/this.ts",
       "children": [
         {
-          "id": 179,
+          "id": 181,
           "name": "ChainClass",
           "kind": 128,
           "kindString": "Class",
@@ -3891,7 +3195,7 @@
           },
           "children": [
             {
-              "id": 180,
+              "id": 182,
               "name": "chain",
               "kind": 2048,
               "kindString": "Method",
@@ -3901,7 +3205,7 @@
               },
               "signatures": [
                 {
-                  "id": 181,
+                  "id": 183,
                   "name": "chain",
                   "kind": 4096,
                   "kindString": "Call signature",
@@ -3916,13 +3220,6 @@
                     "name": "this"
                   }
                 }
-              ],
-              "sources": [
-                {
-                  "fileName": "this.ts",
-                  "line": 10,
-                  "character": 16
-                }
               ]
             }
           ],
@@ -3931,15 +3228,8 @@
               "title": "Methods",
               "kind": 2048,
               "children": [
-                180
+                182
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "this.ts",
-              "line": 6,
-              "character": 23
             }
           ]
         }
@@ -3949,30 +3239,23 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            179
+            181
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "this.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
     {
-      "id": 182,
+      "id": 184,
       "name": "\"type-operator\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/class/type-operator.ts",
       "children": [
         {
-          "id": 186,
+          "id": 188,
           "name": "GenericClass",
           "kind": 128,
           "kindString": "Class",
@@ -3981,7 +3264,7 @@
           },
           "typeParameter": [
             {
-              "id": 187,
+              "id": 189,
               "name": "T",
               "kind": 131072,
               "kindString": "Type parameter",
@@ -3993,7 +3276,7 @@
                 "operator": "keyof",
                 "target": {
                   "type": "reference",
-                  "id": 183,
+                  "id": 185,
                   "name": "TestClass"
                 }
               }
@@ -4001,20 +3284,13 @@
           ],
           "children": [
             {
-              "id": 188,
+              "id": 190,
               "name": "c",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "type-operator.ts",
-                  "line": 14,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "typeParameter",
                 "name": "T",
@@ -4023,7 +3299,7 @@
                   "operator": "keyof",
                   "target": {
                     "type": "reference",
-                    "id": 183,
+                    "id": 185,
                     "name": "TestClass"
                   }
                 }
@@ -4035,20 +3311,13 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                188
+                190
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "type-operator.ts",
-              "line": 13,
-              "character": 25
             }
           ]
         },
         {
-          "id": 183,
+          "id": 185,
           "name": "TestClass",
           "kind": 128,
           "kindString": "Class",
@@ -4067,40 +3336,26 @@
           },
           "children": [
             {
-              "id": 184,
+              "id": 186,
               "name": "a",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "type-operator.ts",
-                  "line": 9,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "string"
               }
             },
             {
-              "id": 185,
+              "id": 187,
               "name": "b",
               "kind": 1024,
               "kindString": "Property",
               "flags": {
                 "isExported": true
               },
-              "sources": [
-                {
-                  "fileName": "type-operator.ts",
-                  "line": 10,
-                  "character": 5
-                }
-              ],
               "type": {
                 "type": "intrinsic",
                 "name": "number"
@@ -4112,16 +3367,9 @@
               "title": "Properties",
               "kind": 1024,
               "children": [
-                184,
-                185
+                186,
+                187
               ]
-            }
-          ],
-          "sources": [
-            {
-              "fileName": "type-operator.ts",
-              "line": 8,
-              "character": 22
             }
           ]
         }
@@ -4131,36 +3379,29 @@
           "title": "Classes",
           "kind": 128,
           "children": [
-            186,
-            183
+            188,
+            185
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "type-operator.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     }
   ],
   "groups": [
     {
-      "title": "External modules",
+      "title": "Modules",
       "kind": 1,
       "children": [
         1,
         15,
-        75,
-        80,
-        101,
-        145,
-        118,
-        148,
-        166,
-        178,
-        182
+        77,
+        82,
+        103,
+        147,
+        120,
+        150,
+        168,
+        180,
+        184
       ]
     }
   ]

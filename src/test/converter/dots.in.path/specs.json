@@ -8,7 +8,7 @@
       "id": 3,
       "name": "\"function\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -55,13 +55,6 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "function.ts",
-              "line": 6,
-              "character": 32
-            }
           ]
         }
       ],
@@ -73,20 +66,13 @@
             4
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "function.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     },
     {
       "id": 1,
       "name": "\"interface-empty\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -102,14 +88,7 @@
           },
           "comment": {
             "shortText": "This is a simple interface"
-          },
-          "sources": [
-            {
-              "fileName": "interface-empty.ts",
-              "line": 4,
-              "character": 31
-            }
-          ]
+          }
         }
       ],
       "groups": [
@@ -120,19 +99,12 @@
             2
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "interface-empty.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     }
   ],
   "groups": [
     {
-      "title": "External modules",
+      "title": "Modules",
       "kind": 1,
       "children": [
         3,

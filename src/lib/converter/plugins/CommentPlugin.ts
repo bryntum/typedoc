@@ -137,7 +137,7 @@ export class CommentPlugin extends ConverterComponent {
             comment.removeTags('event');
         }
 
-        if (reflection.kindOf(ReflectionKind.ExternalModule)) {
+        if (reflection.kindOf(ReflectionKind.Module)) {
             comment.removeTags('packagedocumentation');
         }
     }
@@ -162,6 +162,9 @@ export class CommentPlugin extends ConverterComponent {
         const comment = reflection.parent && reflection.parent.comment;
         if (comment) {
             let tag = comment.getTag('typeparam', reflection.name);
+            if (!tag) {
+                tag = comment.getTag('template', reflection.name);
+            }
             if (!tag) {
                 tag = comment.getTag('param', `<${reflection.name}>`);
             }
@@ -199,7 +202,7 @@ export class CommentPlugin extends ConverterComponent {
             const comment = parseComment(rawComment, reflection.comment);
             this.applyModifiers(reflection, comment);
             this.removeExcludedTags(comment);
-        } else if (reflection.kindOf(ReflectionKind.Module)) {
+        } else if (reflection.kindOf(ReflectionKind.Namespace)) {
             this.storeModuleComment(rawComment, reflection);
         } else {
             const comment = parseComment(rawComment, reflection.comment);
@@ -246,13 +249,18 @@ export class CommentPlugin extends ConverterComponent {
             info.reflection.comment = comment;
         }
 
-        const stripInternal = this.application.options.getCompilerOptions().stripInternal;
+        const stripInternal = !!this.application.options.getCompilerOptions().stripInternal;
+        const excludePrivate = this.application.options.getValue('excludePrivate');
+        const excludeProtected = this.application.options.getValue('excludeProtected');
 
         const project = context.project;
         const reflections = Object.values(project.reflections);
 
         // remove signatures
-        const hidden = reflections.filter(reflection => CommentPlugin.isHidden(reflection, stripInternal));
+        // TODO: This doesn't really belong here. Removing comments due to @hidden yes, but private/protected no.
+        //   it needs to be here for now because users can use @public/@private/@protected to override visibility.
+        //   the converter should probably have a post resolve step in which it handles the excludePrivate/protected options.
+        const hidden = reflections.filter(reflection => CommentPlugin.isHidden(reflection, stripInternal, excludePrivate, excludeProtected));
         hidden.forEach(reflection => project.removeReflection(reflection, true));
 
         // remove functions with empty signatures after their signatures have been removed
@@ -350,6 +358,8 @@ export class CommentPlugin extends ConverterComponent {
      * @param tagName  The name of the that that should be removed.
      */
     static removeTags(comment: Comment | undefined, tagName: string) {
+        // Can't use a logger here, we don't have one.
+        console.warn('Using deprecated function removeTags. This function will be removed in the next minor release.');
         comment?.removeTags(tagName);
     }
 
@@ -359,6 +369,8 @@ export class CommentPlugin extends ConverterComponent {
      * Warn in 0.17, remove in 0.18
      */
     static removeReflections(project: ProjectReflection, reflections: Reflection[]) {
+        // Can't use a logger here, we don't have one.
+        console.warn('Using deprecated function removeReflections. This function will be removed in the next minor release.');
         for (const reflection of reflections) {
             project.removeReflection(reflection, true);
         }
@@ -370,6 +382,8 @@ export class CommentPlugin extends ConverterComponent {
      * Warn in 0.17, remove in 0.18
      */
     static removeReflection(project: ProjectReflection, reflection: Reflection) {
+        // Can't use a logger here, we don't have one.
+        console.warn('Using deprecated function removeReflections. This function will be removed in the next minor release.');
         project.removeReflection(reflection, true);
     }
 
@@ -378,8 +392,21 @@ export class CommentPlugin extends ConverterComponent {
      *
      * @param reflection Reflection to check if hidden
      */
-    private static isHidden(reflection: Reflection, stripInternal: boolean | undefined) {
+    private static isHidden(
+        reflection: Reflection,
+        stripInternal: boolean,
+        excludePrivate: boolean,
+        excludeProtected: boolean
+    ) {
         const comment = reflection.comment;
+
+        if (reflection.flags.hasFlag(ReflectionFlag.Private) && excludePrivate) {
+            return true;
+        }
+
+        if (reflection.flags.hasFlag(ReflectionFlag.Protected) && excludeProtected) {
+            return true;
+        }
 
         if (!comment) {
             return false;

@@ -5,17 +5,27 @@
   "flags": {},
   "children": [
     {
-      "id": 26,
+      "id": 27,
       "name": "\"export\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/exports/export.ts",
       "children": [
         {
-          "id": 27,
+          "id": 32,
+          "name": "ThisModule",
+          "kind": 16777216,
+          "kindString": "Reference",
+          "flags": {
+            "isExported": true
+          },
+          "target": 19
+        },
+        {
+          "id": 28,
           "name": "a",
           "kind": 16777216,
           "kindString": "Reference",
@@ -25,7 +35,7 @@
           "target": 20
         },
         {
-          "id": 28,
+          "id": 29,
           "name": "b",
           "kind": 16777216,
           "kindString": "Reference",
@@ -35,7 +45,7 @@
           "target": 20
         },
         {
-          "id": 29,
+          "id": 30,
           "name": "c",
           "kind": 16777216,
           "kindString": "Reference",
@@ -45,7 +55,7 @@
           "target": 20
         },
         {
-          "id": 31,
+          "id": 33,
           "name": "c",
           "kind": 16777216,
           "kindString": "Reference",
@@ -55,7 +65,7 @@
           "target": 20
         },
         {
-          "id": 32,
+          "id": 34,
           "name": "add",
           "kind": 64,
           "kindString": "Function",
@@ -64,7 +74,7 @@
           },
           "signatures": [
             {
-              "id": 33,
+              "id": 35,
               "name": "add",
               "kind": 4096,
               "kindString": "Call signature",
@@ -73,7 +83,7 @@
               },
               "parameters": [
                 {
-                  "id": 34,
+                  "id": 36,
                   "name": "x",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -86,7 +96,7 @@
                   }
                 },
                 {
-                  "id": 35,
+                  "id": 37,
                   "name": "y",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -104,31 +114,24 @@
                 "name": "number"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "export.ts",
-              "line": 7,
-              "character": 12
-            }
           ]
         },
         {
-          "id": 36,
+          "id": 38,
           "name": "default",
           "kind": 64,
           "kindString": "Function",
           "flags": {},
           "signatures": [
             {
-              "id": 37,
+              "id": 39,
               "name": "default",
               "kind": 4096,
               "kindString": "Call signature",
               "flags": {},
               "parameters": [
                 {
-                  "id": 38,
+                  "id": 40,
                   "name": "a",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -144,13 +147,6 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "export.ts",
-              "line": 9,
-              "character": 1
-            }
           ]
         }
       ],
@@ -159,26 +155,20 @@
           "title": "References",
           "kind": 16777216,
           "children": [
-            27,
+            32,
             28,
             29,
-            31
+            30,
+            33
           ]
         },
         {
           "title": "Functions",
           "kind": 64,
           "children": [
-            32,
-            36
+            34,
+            38
           ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "export.ts",
-          "line": 1,
-          "character": 0
         }
       ]
     },
@@ -186,7 +176,7 @@
       "id": 1,
       "name": "\"export-assignment\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -237,13 +227,6 @@
                 "name": "number"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "export-assignment.ts",
-              "line": 1,
-              "character": 12
-            }
           ]
         }
       ],
@@ -255,20 +238,13 @@
             2
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "export-assignment.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     },
     {
       "id": 6,
       "name": "\"export-default\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -283,13 +259,6 @@
             "isExported": true,
             "isConst": true
           },
-          "sources": [
-            {
-              "fileName": "export-default.ts",
-              "line": 1,
-              "character": 7
-            }
-          ],
           "type": {
             "type": "unknown",
             "name": "5"
@@ -305,20 +274,13 @@
             7
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "export-default.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     },
     {
       "id": 8,
       "name": "\"export-with-local\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
@@ -332,13 +294,6 @@
           "flags": {
             "isLet": true
           },
-          "sources": [
-            {
-              "fileName": "export-with-local.ts",
-              "line": 9,
-              "character": 12
-            }
-          ],
           "type": {
             "type": "intrinsic",
             "name": "string"
@@ -354,13 +309,6 @@
             "isExported": true,
             "isConst": true
           },
-          "sources": [
-            {
-              "fileName": "export-with-local.ts",
-              "line": 1,
-              "character": 14
-            }
-          ],
           "type": {
             "type": "unknown",
             "name": "5"
@@ -417,13 +365,6 @@
                 "name": "number"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "export-with-local.ts",
-              "line": 3,
-              "character": 19
-            }
           ]
         },
         {
@@ -468,13 +409,6 @@
                 "name": "number"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "export-with-local.ts",
-              "line": 11,
-              "character": 14
-            }
           ]
         }
       ],
@@ -495,25 +429,28 @@
             15
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "export-with-local.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     },
     {
       "id": 19,
       "name": "\"mod\"",
       "kind": 1,
-      "kindString": "External module",
+      "kindString": "Module",
       "flags": {
         "isExported": true
       },
       "originalName": "%BASE%/exports/mod.ts",
       "children": [
+        {
+          "id": 26,
+          "name": "ThisModule",
+          "kind": 16777216,
+          "kindString": "Reference",
+          "flags": {
+            "isExported": true
+          },
+          "target": 19
+        },
         {
           "id": 21,
           "name": "b",
@@ -546,13 +483,6 @@
           "comment": {
             "shortText": "A simple named export that will be exported from export.ts"
           },
-          "sources": [
-            {
-              "fileName": "mod.ts",
-              "line": 4,
-              "character": 14
-            }
-          ],
           "type": {
             "type": "unknown",
             "name": "1"
@@ -580,13 +510,6 @@
                 "name": "void"
               }
             }
-          ],
-          "sources": [
-            {
-              "fileName": "mod.ts",
-              "line": 14,
-              "character": 31
-            }
           ]
         }
       ],
@@ -595,6 +518,7 @@
           "title": "References",
           "kind": 16777216,
           "children": [
+            26,
             21,
             22
           ]
@@ -613,22 +537,15 @@
             23
           ]
         }
-      ],
-      "sources": [
-        {
-          "fileName": "mod.ts",
-          "line": 1,
-          "character": 0
-        }
       ]
     }
   ],
   "groups": [
     {
-      "title": "External modules",
+      "title": "Modules",
       "kind": 1,
       "children": [
-        26,
+        27,
         1,
         6,
         8,
