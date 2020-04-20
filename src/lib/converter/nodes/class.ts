@@ -55,9 +55,25 @@ export class ClassConverter extends ConverterNodeComponent<ts.ClassDeclaration> 
                     if (!reflection!.extendedTypes) {
                         reflection!.extendedTypes = [];
                     }
-                    const convertedType = this.owner.convertType(context, baseType, type);
-                    if (convertedType) {
-                        reflection!.extendedTypes.push(convertedType);
+
+                    // dirty hack to extract the mixins
+                    // @ts-ignore
+                    if (baseType?.expression?.expression?.escapedText === 'Mixin' && type?.target?.resolvedBaseTypes) {
+                        // @ts-ignore
+                        const resolvedBaseTypes   = type.target.resolvedBaseTypes
+
+                        resolvedBaseTypes.forEach(resolvedBaseType => {
+                            const convertedType = this.owner.convertType(context, baseType, resolvedBaseType);
+                            if (convertedType) {
+                                // @ts-ignore
+                                reflection!.extendedTypes.push(convertedType);
+                            }
+                        })
+                    } else {
+                        const convertedType = this.owner.convertType(context, baseType, type);
+                        if (convertedType) {
+                            reflection!.extendedTypes.push(convertedType);
+                        }
                     }
                 }
 
