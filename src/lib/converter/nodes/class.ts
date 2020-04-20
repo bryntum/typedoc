@@ -58,7 +58,7 @@ export class ClassConverter extends ConverterNodeComponent<ts.ClassDeclaration> 
 
                     // dirty hack to extract the mixins
                     // @ts-ignore
-                    if (baseType?.expression?.expression?.escapedText === 'Mixin' && type?.target?.resolvedBaseTypes) {
+                    if ((baseType?.expression?.expression?.escapedText === 'Mixin' || baseType?.expression?.expression?.escapedText === 'MixinAny') && type?.target?.resolvedBaseTypes) {
                         // @ts-ignore
                         const resolvedBaseTypes   = type.target.resolvedBaseTypes
 
