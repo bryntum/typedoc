@@ -17,6 +17,23 @@ export class ClassConverter extends ConverterNodeComponent<ts.ClassDeclaration> 
         ts.SyntaxKind.ClassDeclaration
     ];
 
+    isMixinClassDeclaration (context: Context, node: ts.ClassDeclaration): boolean {
+        const extendsClause     = toArray(node.heritageClauses).find(h => h.token === ts.SyntaxKind.ExtendsKeyword);
+        const baseType          = extendsClause?.types[0];
+        // @ts-ignore
+        const type              = context.getTypeAtLocation(baseType);
+
+        // @ts-ignore
+        if ((baseType?.expression?.expression?.escapedText === 'Mixin' || baseType?.expression?.expression?.escapedText === 'MixinAny')
+            // @ts-ignore
+            && type?.target?.resolvedBaseTypes
+        ) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     /**
      * Analyze the given class declaration node and create a suitable reflection.
      *
@@ -25,6 +42,8 @@ export class ClassConverter extends ConverterNodeComponent<ts.ClassDeclaration> 
      * @return The resulting reflection or NULL.
      */
     convert(context: Context, node: ts.ClassDeclaration): Reflection | undefined {
+        const isMixinDeclaration    = this.isMixinClassDeclaration(context, node);
+
         let reflection: DeclarationReflection | undefined;
         if (context.isInherit && context.inheritParent === node) {
             reflection = <DeclarationReflection> context.scope;
@@ -58,9 +77,9 @@ export class ClassConverter extends ConverterNodeComponent<ts.ClassDeclaration> 
 
                     // dirty hack to extract the mixins
                     // @ts-ignore
-                    if ((baseType?.expression?.expression?.escapedText === 'Mixin' || baseType?.expression?.expression?.escapedText === 'MixinAny') && type?.target?.resolvedBaseTypes) {
+                    if (isMixinDeclaration) {
                         // @ts-ignore
-                        const resolvedBaseTypes   = type.target.resolvedBaseTypes
+                        const resolvedBaseTypes   = type.target.resolvedBaseTypes;
 
                         resolvedBaseTypes.forEach(resolvedBaseType => {
                             const convertedType = this.owner.convertType(context, baseType, resolvedBaseType);
@@ -68,12 +87,30 @@ export class ClassConverter extends ConverterNodeComponent<ts.ClassDeclaration> 
                                 // @ts-ignore
                                 reflection!.extendedTypes.push(convertedType);
                             }
-                        })
+                        });
                     } else {
                         const convertedType = this.owner.convertType(context, baseType, type);
                         if (convertedType) {
                             reflection!.extendedTypes.push(convertedType);
                         }
+                    }
+                }
+
+                if (isMixinDeclaration && !context.isInherit) {
+                    const mixinName = node.name?.escapedText;
+
+                    // @ts-ignore
+                    const mixinClassSymbol  = baseType?.expression?.arguments[1].locals.get(mixinName);
+                    const mixinClassNode    = mixinClassSymbol?.declarations[ 0 ];
+
+                    if (mixinClassNode && mixinClassNode.members) {
+                        mixinClassNode.members.forEach((member) => {
+                            const child = this.owner.convertNode(context, member);
+                            // class Foo { #foo = 1 }
+                            if (child && member.name && ts.isPrivateIdentifier(member.name)) {
+                                child.flags.setFlag(ReflectionFlag.Private, true);
+                            }
+                        });
                     }
                 }
 
