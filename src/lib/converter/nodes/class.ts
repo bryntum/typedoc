@@ -100,8 +100,9 @@ export class ClassConverter extends ConverterNodeComponent<ts.ClassDeclaration> 
                     const mixinName = node.name?.escapedText;
 
                     // @ts-ignore
-                    const mixinClassSymbol  = baseType?.expression?.arguments[1].locals.get(mixinName);
-                    const mixinClassNode    = mixinClassSymbol?.declarations[ 0 ];
+                    const locals            = baseType?.expression?.arguments?.[1]?.locals;
+                    const mixinClassSymbol  = locals && locals.get(mixinName);
+                    const mixinClassNode    = mixinClassSymbol?.declarations?.[ 0 ];
 
                     if (mixinClassNode && mixinClassNode.members) {
                         mixinClassNode.members.forEach((member) => {
